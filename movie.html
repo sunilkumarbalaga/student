@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width" "initial-scaled=1.0">
+<style>
+h1{color:indigo;text-align:center;}
+p{color:white;font-size:150%;}
+p1{
+	color:blue;
+}
+body{
+	background-color:white;
+}
+
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+}
+.box{
+	min-height:200px;
+	width:100%;
+}
+div.one:hover{
+	background-color:lightblue;
+	border-radius:100px;
+}
+div.two:hover{
+	background-color:black;
+	border-radius:100px;
+}
+div.three:hover{
+	background-color:grey;
+	border-radius:100px;
+}
+div.four:hover{
+	background-color:red;
+	border-radius:100px;
+}
+@media screen and (min-width: 450px)
+{
+	.one, .two
+	{
+		width:50%;
+		}
+        .three, .four
+	{
+		width:50%;
+		}
+}
+</style>
+</head>
+<body>
+<h1>Movie Images</h1>
+<p<p1>By clicking below images respective movie trailers are opened.</p1></p>
+<center>
+<div class="container">
+	<div class="box one"><p> Avengers</p><a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8"><img vspace="20"  src="avengers.jpeg" width="350" style="width:45%" height="350"  hspace="20" ></a></div>
+        <div class="box two"><p>Hey Dil Hai Mushqil</p><a href="https://www.youtube.com/watch?v=Z_PODraXg4E"><img vspace="20" src="hey dil.jpeg" width="350" style="width:45%" height="350"   hspace="20" ><br></a></div>
+        <div class="box three"><p>Gravity</p><a href="https://www.youtube.com/watch?v=OiTiKOy59o4"><img vspace="20"  src="gravity.jpeg" width="350" style="width:45%" height="350"   hspace="20" ></a></div>     
+        <div class="box four"><p>Bharath ane nenu</p><a href="https://www.youtube.com/watch?v=KMWS5y2gZ6E"><img vspace="20" src="ban.jpeg" width="350" style="width:45%" height="350" hspace="20" ></a></div>
+</div>
+</center>
+</body>
+</html>
+
+
